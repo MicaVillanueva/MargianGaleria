@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    padding: 40px 0;
+    background-image: url("../assets/banner3.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+}
+
+.logo {
+    border-radius: 70px;
+    margin-left: 100px;
+}
+
+nav {
+    position: absolute;
+    top: 140px;
+    margin-left: 450px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+
+main {
+    display: flex;
+}
+
+.principal {
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.principal p {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.entrada {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+  
+}
+
+.video {
+    background-color: #f5f5f5;
+    width: 700px;
+    display: flex;
+    width: 560px;
+    height: 400px;
+}
+
+.video_video {
+  margin-top: 200px;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+
+.mapa {
+    width: 100%;
+    background: linear-gradient(#f5f5f5, #ac99a3);
+}
+
+.mapa p {
+    line-height: 50px;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin-left: 350px;
+}
+
+
+footer {
+    background-color:white;
+    text-align: center;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales {
+        width: 100%;
+    }
+}
+
+
+
